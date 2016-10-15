@@ -12,6 +12,7 @@
 		1EFAF9C71DB2935000E7F6EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAF9C51DB2935000E7F6EB /* Main.storyboard */; };
 		1EFAF9C91DB2935000E7F6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAF9C81DB2935000E7F6EB /* Assets.xcassets */; };
 		1EFAF9CC1DB2935000E7F6EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAF9CA1DB2935000E7F6EB /* LaunchScreen.storyboard */; };
+		1EFAF9D41DB2B07400E7F6EB /* InteractiveStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAF9D31DB2B07400E7F6EB /* InteractiveStory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1EFAF9C81DB2935000E7F6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EFAF9CB1DB2935000E7F6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EFAF9CD1DB2935000E7F6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFAF9D31DB2B07400E7F6EB /* InteractiveStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractiveStory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				1EFAF9C11DB2935000E7F6EB /* AppDelegate.swift */,
 				1EFAF9C31DB2935000E7F6EB /* ViewController.swift */,
 				1EFAF9C51DB2935000E7F6EB /* Main.storyboard */,
+				1EFAF9D31DB2B07400E7F6EB /* InteractiveStory.swift */,
 				1EFAF9C81DB2935000E7F6EB /* Assets.xcassets */,
 				1EFAF9CA1DB2935000E7F6EB /* LaunchScreen.storyboard */,
 				1EFAF9CD1DB2935000E7F6EB /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFAF9D41DB2B07400E7F6EB /* InteractiveStory.swift in Sources */,
 				1EFAF9C41DB2935000E7F6EB /* ViewController.swift in Sources */,
 				1EFAF9C21DB2935000E7F6EB /* AppDelegate.swift in Sources */,
 			);
