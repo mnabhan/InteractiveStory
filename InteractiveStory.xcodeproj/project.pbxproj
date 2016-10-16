@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E6256561DB3AAB100F22408 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6256551DB3AAB100F22408 /* PageController.swift */; };
 		1EFAF9C21DB2935000E7F6EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAF9C11DB2935000E7F6EB /* AppDelegate.swift */; };
 		1EFAF9C41DB2935000E7F6EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAF9C31DB2935000E7F6EB /* ViewController.swift */; };
 		1EFAF9C71DB2935000E7F6EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAF9C51DB2935000E7F6EB /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E6256551DB3AAB100F22408 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		1EFAF9BE1DB2935000E7F6EB /* InteractiveStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFAF9C11DB2935000E7F6EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EFAF9C31DB2935000E7F6EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				1EFAF9C31DB2935000E7F6EB /* ViewController.swift */,
 				1EFAF9C51DB2935000E7F6EB /* Main.storyboard */,
 				1EFAF9D31DB2B07400E7F6EB /* InteractiveStory.swift */,
+				1E6256551DB3AAB100F22408 /* PageController.swift */,
 				1EFAF9C81DB2935000E7F6EB /* Assets.xcassets */,
 				1EFAF9CA1DB2935000E7F6EB /* LaunchScreen.storyboard */,
 				1EFAF9CD1DB2935000E7F6EB /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6256561DB3AAB100F22408 /* PageController.swift in Sources */,
 				1EFAF9D41DB2B07400E7F6EB /* InteractiveStory.swift in Sources */,
 				1EFAF9C41DB2935000E7F6EB /* ViewController.swift in Sources */,
 				1EFAF9C21DB2935000E7F6EB /* AppDelegate.swift in Sources */,
@@ -301,6 +305,7 @@
 				1EFAF9D21DB2935000E7F6EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
