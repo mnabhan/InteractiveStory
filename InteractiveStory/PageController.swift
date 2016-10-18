@@ -40,13 +40,18 @@ class PageController: UIViewController {
             
             if let firstChoice = page.firstChoice {
                 firstChoiceButton.setTitle(firstChoice.title, for: .normal)
-                firstChoiceButton.addTarget(self, action: #selector(PageController.floadFirstChoice), for: .touchUpInside)
+                firstChoiceButton.addTarget(self, action: #selector(PageController.loadFirstChoice), for: .touchUpInside)
             } else {
                 firstChoiceButton.setTitle("Play Again", for: .normal)
+                firstChoiceButton.addTarget(self, action: #selector(PageController.playAgain), for: .touchUpInside)
             }
             
             if let secondChoice = page.secondChoice {
                 secondChoiceButton.setTitle(secondChoice.title, for: .normal)
+                secondChoiceButton.addTarget(self, action: #selector(PageController.loadSecondChoice), for: .touchUpInside)
+            } else {
+//                secondChoiceButton.setTitle("Play Again", for: .normal)
+                secondChoiceButton.addTarget(self, action: #selector(PageController.playAgain), for: .touchUpInside)
             }
         }
 
@@ -93,7 +98,7 @@ class PageController: UIViewController {
             ])
     }
     
-    func floadFirstChoice() {
+    func loadFirstChoice() {
         if let page = page, let firstChoice = page.firstChoice {
             let nextPage = firstChoice.page
             let pageController = PageController(page: nextPage)
@@ -109,6 +114,10 @@ class PageController: UIViewController {
             
             navigationController?.pushViewController(pageController, animated: true)
         }
+    }
+    
+    func playAgain() {
+        navigationController?.popToRootViewController(animated: true)
     }
 
 }
