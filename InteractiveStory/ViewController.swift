@@ -8,8 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController  {
+    
+    enum Error: Error {
+        case NoName
+    }
 
+    @IBOutlet weak var nameTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -22,8 +28,9 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "startAdventure" {
             if let pageController = segue.destination as? PageController {
-                pageController.page = Adventure.story
+                pageController.page = Adventure.story(name: "What")
             }
+            
         }
     }
 }
